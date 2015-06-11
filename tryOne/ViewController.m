@@ -14,6 +14,27 @@
 
 @implementation ViewController
 
+-(IBAction)Button1:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.google.com"]];
+}
+
+-(IBAction)Button2:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com"]];
+}
+
+-(IBAction)Button3:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.youtube.com"]];
+}
+
+-(IBAction)Button4:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.dartmouth.edu"]];
+}
+
+-(IBAction)Button5:(id)sender{
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://engineering.dartmouth.edu"]];
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
